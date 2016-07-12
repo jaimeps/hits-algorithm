@@ -1,7 +1,7 @@
 ## Implementation of HITS algorithm in Hive, Spark and SparkSQL
 
 <p align="center">
-	<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/wiki.png" width="250">
+	<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/wiki.png" width="200">
 </p>
 
 ### Description
@@ -21,17 +21,17 @@ Two scores were computed for each page, the *authority* score and the *hub* scor
 
 After initialization, the process consists of:
 - Updating the authority scores: <br />
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/update_auths.png" width="150"> <br />
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/update_auths.png" width="200"> <br />
 - Updating the hub scores: <br />
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/update_hubs.png" width="150"> <br />
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/update_hubs.png" width="200"> <br />
 - Normalizing the authority scores <br />
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths.png" width="150"> <br />
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths.png" width="200"> <br />
 where
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths2.png" width="150"> <br />
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths2.png" width="200"> <br />
 - Normalizing the hub scores <br />
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs.png" width="150"> <br />
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs.png" width="200"> <br />
 where
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs2.png" width="150"> <br />
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs_2.png" width="200"> <br />
 - Iterate
 
 ### References
