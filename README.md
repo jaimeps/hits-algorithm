@@ -27,11 +27,11 @@ After initialization, the process consists of:
 - Normalizing the authority scores <br />
 <img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths.png" width="250"> <br />
 where <br />
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths2.png" width="200"> <br />
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths_den.png" width="200"> <br />
 - Normalizing the hub scores <br />
 <img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs.png" width="250"> <br />
 where <br />
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs_2.png" width="200"> <br />
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs_den.png" width="200"> <br />
 - Iterate
 
 ### References
