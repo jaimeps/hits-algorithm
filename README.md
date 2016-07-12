@@ -1,7 +1,7 @@
 ## Implementation of HITS algorithm in Hive, Spark and SparkSQL
 
 <p align="center">
-	<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/wiki.png" width="200">
+	<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/wiki.png" width="150">
 </p>
 
 ### Description
@@ -25,12 +25,12 @@ After initialization, the process consists of:
 - Updating the hub scores: <br />
 <img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/update_hubs.png" width="200"> <br />
 - Normalizing the authority scores <br />
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths.png" width="200"> <br />
-where
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths.png" width="250"> <br />
+where <br />
 <img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_auths2.png" width="200"> <br />
 - Normalizing the hub scores <br />
-<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs.png" width="200"> <br />
-where
+<img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs.png" width="250"> <br />
+where <br />
 <img src="https://github.com/jaimeps/hits-algorithm/blob/master/images/norm_hubs_2.png" width="200"> <br />
 - Iterate
 
